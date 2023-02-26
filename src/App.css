@@ -1,38 +1,143 @@
 .App {
   text-align: center;
+  width: 320px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: #1a1b21;
+	border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #23252C;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3, h4{
+  margin: 0;
 }
+img {
+	max-width: 100%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+button {
+  cursor: pointer;
+}
+/* Header Component */
+
+.head {
+  margin-top: 70px;
+  width: 317px;
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;  
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+.head > h1{
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.head > h3{
+  font-weight: 500;
+  color: #F47D27;
+}
+.head > h4{
+  margin-top:10px;
+  font-size: 12px;
+  font-weight: 100;
+  color: #F5F5F5;
+}
+
+.personal{
+  width: 317px;
+  height: 317px;
+  margin-bottom:20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.links {
+  width: 260px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.mail {  
+  padding: 10px 30px;
+  background-color: #FFFFFF;
+  border:1px solid #D1D5DB;
+  border-radius: 8px;  
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mail--text {
+  margin-left: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.linkedin {
+  padding: 10px 30px; 
+  background-color: #297FE5;
+  border:1px solid #297FE5;
+  color:white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
 }
+
+.linkedin--text {
+  margin-left: 8px;
+}
+
+/* Content Component */
+
+.main{
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 317px;
+  display: flex;
+  flex-direction: column;  
+  padding: 10px 30px;
+}
+
+.main > p{
+  text-align: left;
+  font-size:12px;
+  margin: 5px 0px;
+  line-height: 16px;
+  color:#F5F5F5;
+  width: 260px;
+}
+
+.main h3 {
+  color:#F5F5F5;
+  text-align: left;
+  margin-top: 15px;
+}
+
+
+
+/* Footer Component */
+.footer {
+	margin: 20px auto;
+	background-color: #161619;
+	height: 65px;
+	border-radius: 0 0 10px 10px;	
+  display: flex;
+  align-items: center;
+  justify-content: center;	
+}
+
+.footer > a { 
+	margin: 19px 12px auto 12px;
+	border-radius: 0; 
+}
+
