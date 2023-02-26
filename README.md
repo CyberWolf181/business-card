@@ -27,7 +27,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+Website: https://business-card-ekrem.netlify.app/
 
+
+![business-card](https://user-images.githubusercontent.com/60442686/221415861-ea11ee13-6d5a-4dc1-a7f1-8c4f688b15be.jpg)
 
 
 
